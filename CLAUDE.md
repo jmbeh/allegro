@@ -4,12 +4,12 @@
 
 ## 🚨 CRITICAL: GitHub Safety
 
-**This project ONLY syncs to personal GitHub:**
-- ✅ `github.com/jmbeh/Allegro`
-- ❌ **NEVER push to:** `git.corp.adobe.com/*` or `github.com/adobe/*`
+**This project syncs to personal GitHub only.**
 
-Git remote format: `git@github.com:jmbeh/Allegro.git`
-Git author email: `behjianming@gmail.com`
+Git remote: Check with `git remote -v`
+Git author: Check with `git config user.email`
+
+**Vercel:** DO NOT push/deploy unless explicitly requested (git push = auto-deploy)
 
 ## Project Type
 Next.js 14+ app with TypeScript for parents to engage with kids' music practice. Identifies songs from live piano/guitar playing and generates personalized coaching content.

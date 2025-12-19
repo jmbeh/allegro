@@ -5,7 +5,6 @@
 ### 1. Install Dependencies
 
 ```bash
-cd /Users/jmbeh/Personal\ Builder\ Lab/Allegro
 npm install
 ```
 
@@ -28,7 +27,7 @@ Edit `.env.local` with your API keys:
 
 2. **MusicBrainz** (Metadata)
    - No signup required
-   - Set user agent: `MUSICBRAINZ_USER_AGENT=Allegro/1.0 (https://github.com/jmbeh/Allegro)`
+   - Set user agent: `MUSICBRAINZ_USER_AGENT=Allegro/1.0 (your-app-url)`
    - Optional: Add your email for higher rate limits
 
 3. **Spotify API** (Recommendations - for future features)

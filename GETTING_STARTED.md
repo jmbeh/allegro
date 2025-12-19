@@ -35,7 +35,6 @@ You need one API key to start testing:
 ### Step 2: Configure Environment
 
 ```bash
-cd "/Users/jmbeh/Personal Builder Lab/Allegro"
 cp env.example .env.local
 ```
 
@@ -43,7 +42,7 @@ Edit `.env.local` and add your AudD API key:
 
 ```bash
 AUDD_API_KEY=your_actual_api_key_here
-MUSICBRAINZ_USER_AGENT=Allegro/1.0 (https://github.com/jmbeh/Allegro)
+MUSICBRAINZ_USER_AGENT=Allegro/1.0 (your-app-url)
 ```
 
 ### Step 3: Run the App
@@ -136,28 +135,27 @@ Open http://localhost:3000 in your browser.
 ## 🚢 Deployment to Vercel
 
 ### Prerequisites
-- GitHub repository set up: `git@github.com:JMBeh/Allegro.git`
-- Vercel personal account: https://vercel.com/jmbeh
+- GitHub repository set up (check with `git remote -v`)
+- Vercel personal account
 
 ### Deploy Steps
 
 1. **Push to GitHub**
    ```bash
-   cd "/Users/jmbeh/Personal Builder Lab/Allegro"
    git add .
    git commit -m "Initial Allegro app - Phase 1 MVP"
    git push origin main
    ```
 
 2. **Connect to Vercel**
-   - Go to https://vercel.com/jmbeh
+   - Go to your Vercel dashboard
    - Click "Add New Project"
-   - Import from GitHub: `JMBeh/Allegro`
+   - Import from GitHub
 
 3. **Configure Environment Variables**
    In Vercel dashboard, add:
    - `AUDD_API_KEY` - Your AudD API key
-   - `MUSICBRAINZ_USER_AGENT` - `Allegro/1.0 (https://github.com/jmbeh/Allegro)`
+   - `MUSICBRAINZ_USER_AGENT` - `Allegro/1.0 (your-app-url)`
    - (Optional) `SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `OPENAI_API_KEY`
 
 4. **Deploy**

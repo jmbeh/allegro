@@ -4,8 +4,6 @@
 
 **A personal coaching companion for parents whose kids are learning piano and guitar.** Listen to practice sessions, identify what they're playing, and get wise cracks, coaching moments, and encouragement—even if you're not a music expert.
 
-🔗 **Live Demo:** [allegro-music.vercel.app](https://allegro-music.vercel.app/)
-
 ---
 
 ## 🚀 See It Running
@@ -29,6 +27,7 @@ npm run dev
 ```
 
 Open **http://localhost:3000** in your browser.
+
 
 ---
 
@@ -70,6 +69,7 @@ vercel --prod
 
 Configure environment variables in Vercel dashboard before deploying.
 
+
 ---
 
 ## 💭 What I Learned
@@ -79,6 +79,7 @@ Multi-API orchestration: AudD for recognition, MusicBrainz for metadata, Spotify
 ## 🔮 What's Next
 
 Building **real-time "play along" suggestions**—analyzing what my kids are playing and recommending chords/riffs so I can jam with them on guitar. Same audio challenge, but now matching imperfect playing to playable chord progressions in real-time.
+
 
 ---
 
